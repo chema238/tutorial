@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>{{ Usuarios.lastname }}</h1>
+<ul>
+{% for x in Usuarios %}
+    <li>{{ Ordenes.orden }}</li>
+{% endfor %}
+<li><a href="{% url 'detail' usuarios.id %}">{{ usuarios.usuario }}</a></li>
+</ul>
+</body>
+</html>

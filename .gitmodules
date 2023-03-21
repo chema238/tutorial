@@ -1,0 +1,3 @@
+[submodule "my_banc_app"]
+	path = my_banc_app
+	url = https://github.com/chema238/my_banc_app

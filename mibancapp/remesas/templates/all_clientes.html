@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Clientes</h1>
+  
+<ul>
+  {% for x in usuarios %}
+    <li>{{ x.firstname }} {{ x.lastname }}</li>
+  {% endfor %}
+  {% for x in ordenes %}
+    <li>{{ x.orden}}</li>
+</ul>
+
+</body>
+</html>
